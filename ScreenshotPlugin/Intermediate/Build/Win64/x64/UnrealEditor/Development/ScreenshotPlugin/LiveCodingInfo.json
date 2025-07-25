@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ScreenshotPlugin.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"ScreenshotPlugin.cpp.obj",
+			"ScreenshotPluginCommands.cpp.obj",
+			"ScreenshotPluginStyle.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\screenshotplugin\\module.screenshotplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "k:\\github\\pluginmake2\\intermediate\\build\\win64\\x64\\pluginmake2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\screenshotplugin\\definitions.screenshotplugin.h",
+            "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\screenshotplugin\\permoduleinline.gen.cpp",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
