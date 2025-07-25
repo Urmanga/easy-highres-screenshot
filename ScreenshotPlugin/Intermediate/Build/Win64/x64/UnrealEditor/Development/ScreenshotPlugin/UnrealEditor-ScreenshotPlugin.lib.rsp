@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ScreenshotPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"K:/Github/PluginMake2/Intermediate/Build/Win64/x64/PluginMake2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"K:/Github/PluginMake2/Plugins/ScreenshotPlugin/Intermediate/Build/Win64/x64/UnrealEditor/Development/ScreenshotPlugin/Module.ScreenshotPlugin.cpp.obj"
+"K:/Github/PluginMake2/Plugins/ScreenshotPlugin/Intermediate/Build/Win64/x64/UnrealEditor/Development/ScreenshotPlugin/ScreenshotPlugin.cpp.obj"
+"K:/Github/PluginMake2/Plugins/ScreenshotPlugin/Intermediate/Build/Win64/x64/UnrealEditor/Development/ScreenshotPlugin/ScreenshotPluginCommands.cpp.obj"
+"K:/Github/PluginMake2/Plugins/ScreenshotPlugin/Intermediate/Build/Win64/x64/UnrealEditor/Development/ScreenshotPlugin/ScreenshotPluginStyle.cpp.obj"
+"K:/Github/PluginMake2/Plugins/ScreenshotPlugin/Intermediate/Build/Win64/x64/UnrealEditor/Development/ScreenshotPlugin/Default.rc2.res"
+/OUT:"K:/Github/PluginMake2/Plugins/ScreenshotPlugin/Intermediate/Build/Win64/x64/UnrealEditor/Development/ScreenshotPlugin/UnrealEditor-ScreenshotPlugin.lib"

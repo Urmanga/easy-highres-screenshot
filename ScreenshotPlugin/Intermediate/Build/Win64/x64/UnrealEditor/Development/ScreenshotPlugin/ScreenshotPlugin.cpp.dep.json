@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\source\\screenshotplugin\\private\\screenshotplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "k:\\github\\pluginmake2\\intermediate\\build\\win64\\x64\\pluginmake2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\screenshotplugin\\definitions.screenshotplugin.h",
+            "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\source\\screenshotplugin\\public\\screenshotplugin.h",
+            "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\source\\screenshotplugin\\public\\screenshotpluginstyle.h",
+            "k:\\github\\pluginmake2\\plugins\\screenshotplugin\\source\\screenshotplugin\\public\\screenshotplugincommands.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\editor\\leveleditor\\public\\leveleditor.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\editor\\leveleditor\\public\\ileveleditor.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\public\\elements\\framework\\engineelementslibrary.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\engineelementslibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\editor\\leveleditor\\public\\viewporttypedefinition.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\editor\\leveleditor\\public\\leveleditoroutlinersettings.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\developer\\toolwidgets\\public\\filters\\genericfilter.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\developer\\toolwidgets\\public\\filters\\filterbase.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\slate\\public\\framework\\notifications\\notificationmanager.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\coreasynctasknotificationimpl.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\asynctasknotification.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\slate\\public\\widgets\\notifications\\snotificationlist.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
