@@ -8,6 +8,8 @@ Unreal Engine editor plugin that adds a toolbar/menu action for taking a screens
 - `Releases/UE_5.6/` contains a clean Windows package rebuilt from the current source tree.
 - `Releases/UE_5.7/` contains a clean Windows package rebuilt from the current source tree.
 
+Current release: `v0.3.0`
+
 Copy a packaged plugin from `Releases/<version>/` into either `Engine/Plugins/` or `YourProject/Plugins/`.
 
 Release binaries are stored with Git LFS.
@@ -27,3 +29,10 @@ Release binaries are stored with Git LFS.
   -TargetPlatforms=Win64 `
   -Rocket
 ```
+
+## Release Checklist
+
+1. Update `ScreenshotPlugin/ScreenshotPlugin.uplugin` version metadata.
+2. Rebuild `Releases/UE_5.6/` and `Releases/UE_5.7/` with `RunUAT BuildPlugin`.
+3. Confirm release binaries are tracked by Git LFS with `git lfs ls-files`.
+4. Commit the release, create an annotated tag, and push `main --follow-tags`.
