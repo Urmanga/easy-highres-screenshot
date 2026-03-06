@@ -1,0 +1,9 @@
+/Artifacts/
+/Builds/
+/Packages/
+/_buildcheck/
+/ScreenshotPlugin/Binaries/
+/ScreenshotPlugin/Intermediate/
+*.VC.db
+*.VC.opendb
+*.sln
