@@ -8,13 +8,16 @@ class FScreenshotPluginCommands : public TCommands<FScreenshotPluginCommands>
 {
 public:
 	FScreenshotPluginCommands()
-		: TCommands<FScreenshotPluginCommands>(TEXT("ScreenshotPlugin"), NSLOCTEXT("Contexts", "ScreenshotPlugin", "ScreenshotPlugin Plugin"), NAME_None, FScreenshotPluginStyle::GetStyleSetName())
+		: TCommands<FScreenshotPluginCommands>(
+			TEXT("ScreenshotPlugin"),
+			NSLOCTEXT("Contexts", "ScreenshotPlugin", "Screenshot Plugin"),
+			NAME_None,
+			FScreenshotPluginStyle::GetStyleSetName())
 	{
 	}
 
-	// TCommands<> interface
 	virtual void RegisterCommands() override;
 
 public:
-	TSharedPtr< FUICommandInfo > OpenPluginWindow;
+	TSharedPtr<FUICommandInfo> TakeScreenshot;
 };

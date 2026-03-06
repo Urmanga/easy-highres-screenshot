@@ -2,54 +2,28 @@ using UnrealBuildTool;
 
 public class ScreenshotPlugin : ModuleRules
 {
-public ScreenshotPlugin(ReadOnlyTargetRules Target) : base(Target)
-{
-PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+	public ScreenshotPlugin(ReadOnlyTargetRules Target) : base(Target)
+	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-PublicIncludePaths.AddRange(
-new string[] {
-}
-);
+		PublicDependencyModuleNames.AddRange(
+			new[]
+			{
+				"Core"
+			});
 
-PrivateIncludePaths.AddRange(
-new string[] {
-}
-);
-
-PublicDependencyModuleNames.AddRange(
-new string[]
-{
-"Core",
-"CoreUObject",
-"Engine",
-"UnrealEd",
-"ToolMenus",
-"Slate",
-"SlateCore",
-"EditorStyle",
-"EditorWidgets",
-"ToolWidgets",
-"Projects"
-}
-);
-
-PrivateDependencyModuleNames.AddRange(
-new string[]
-{
-"LevelEditor",
-"MainFrame",
-"DesktopPlatform",
-"ToolMenus",
-"EditorWidgets",
-"Slate",
-"SlateCore"
-}
-);
-
-DynamicallyLoadedModuleNames.AddRange(
-new string[]
-{
-}
-);
-}
+		PrivateDependencyModuleNames.AddRange(
+			new[]
+			{
+				"CoreUObject",
+				"Engine",
+				"InputCore",
+				"LevelEditor",
+				"Projects",
+				"Slate",
+				"SlateCore",
+				"ToolMenus",
+				"UnrealEd"
+			});
+	}
 }
