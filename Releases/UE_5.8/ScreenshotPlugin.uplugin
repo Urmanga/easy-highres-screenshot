@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "0.3.0",
+	"FriendlyName": "Easy HighRes Screenshot",
+	"Description": "Adds a one-click screenshot action to the Unreal Editor toolbar.",
+	"Category": "Editor",
+	"CreatedBy": "Urmanga",
+	"CreatedByURL": "https://github.com/Urmanga",
+	"DocsURL": "https://github.com/Urmanga/easy-highres-screenshot",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/Urmanga/easy-highres-screenshot/issues",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ScreenshotPlugin",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
