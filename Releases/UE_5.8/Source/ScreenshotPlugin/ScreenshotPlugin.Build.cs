@@ -16,6 +16,7 @@ public class ScreenshotPlugin : ModuleRules
 			new[]
 			{
 				"CoreUObject",
+				"DeveloperSettings",
 				"Engine",
 				"InputCore",
 				"LevelEditor",

@@ -1,5 +1,6 @@
 #include "ScreenshotPlugin.h"
 #include "ScreenshotPluginCommands.h"
+#include "ScreenshotPluginSettings.h"
 #include "ScreenshotPluginStyle.h"
 
 #include "ToolMenus.h"
@@ -11,7 +12,6 @@
 
 namespace ScreenshotPlugin
 {
-constexpr int32 ScreenshotMultiplier = 1;
 const FName MainMenuName(TEXT("LevelEditor.MainMenu.Window"));
 const FName MainMenuSectionName(TEXT("WindowLayout"));
 const FName ToolbarMenuName(TEXT("LevelEditor.LevelEditorToolBar.PlayToolBar"));
@@ -75,7 +75,9 @@ void FScreenshotPluginModule::PluginButtonClicked()
 		return;
 	}
 
-	const FString Command = FString::Printf(TEXT("HighResShot %d"), ScreenshotPlugin::ScreenshotMultiplier);
+	const int32 Multiplier = GetDefault<UScreenshotPluginSettings>()->GetClampedResolutionMultiplier();
+
+	const FString Command = FString::Printf(TEXT("HighResShot %d"), Multiplier);
 	const bool bCommandSucceeded = GEngine->Exec(nullptr, *Command);
 	if (!bCommandSucceeded)
 	{
@@ -86,7 +88,7 @@ void FScreenshotPluginModule::PluginButtonClicked()
 	}
 
 	ScreenshotPlugin::ShowNotification(
-		LOCTEXT("ScreenshotTaken", "Screenshot (1x) captured."),
+		FText::Format(LOCTEXT("ScreenshotTaken", "High resolution screenshot ({0}x) captured."), Multiplier),
 		SNotificationItem::CS_Success);
 }
 
